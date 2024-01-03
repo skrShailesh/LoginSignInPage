@@ -4,9 +4,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>LoginSigninPage</title>
+<link rel="stylesheet" type="text/css" href="indexStyle.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <p>We're delighted to have you on our platform. 🌟</p>
+        <h3>Explore, learn, and connect with our vibrant community! 🚀</h3>
+        <p>Feel free to stay as long as you like, and when you're ready,</p> 
+        you can <a href="logout.jsp">LOGOUT</a> securely.
+    </div>
 
 </body>
 </html>
