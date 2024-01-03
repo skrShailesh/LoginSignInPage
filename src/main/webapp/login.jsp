@@ -19,6 +19,11 @@
         </form>
 
         <p><a href="index.html">Back to Home</a></p>
+                <%-- Display error message if login fails --%>
+        <% String error = request.getParameter("error");
+            if (error != null && error.equals("1")) { %>
+                <p style="color: red;">Invalid username or password. Please try again.</p>
+        <% } %>
 </div>
 </body>
 </html>
