@@ -29,5 +29,5 @@
 ## 💻Technologies Used:
 ### Frontend: HTML, CSS
 ### Backend: JSP, Servlet, JDBC
-### Database: MySQL
-### Version Control: GitHub
+### 🛢️Database: MySql
+### 🔗Version Control: GitHub
