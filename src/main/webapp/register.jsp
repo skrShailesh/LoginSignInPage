@@ -5,9 +5,18 @@
 <head>
 <meta charset="UTF-8">
 <title>register</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="animation2.css">
 </head>
 <body>
+    <div class="animation-area">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     <div class="container">
         <h1>Register</h1>
         <form action="RegisterServlet" method="post">
@@ -21,6 +30,7 @@
         </form>
     
         <p><a href="index.html">Back to Home</a></p>
+        </div>
         </div>
 </body>
 </html>

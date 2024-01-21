@@ -3,7 +3,6 @@
 	margin: 0;
 	padding: 0;
 }
-
 body {
 	font-family: 'Ubuntu', sans-serif;
 	display: flex;
@@ -29,38 +28,63 @@ body {
 }
 
 .container {
-    width: 600px;
+    position: relative; /* Change to relative positioning */
+    z-index: 2;
+    width: 400px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
     background-color: white;
     text-align: center;
-    position: relative;
-    z-index: 2;
 }
 
 h1 {
     font-weight: bold;
-    color: #007BFF;
+    text-align: center;
+    color: #333;
 }
 
-p {
-    margin: 20px 0;
-    line-height: 1.6;
+label {
+    display: block;
+    margin: 10px 0;
+    color: #555;
 }
 
-.links a {
-    margin: 0 10px;
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+a {
     text-decoration: none;
     color: #007BFF;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
-.links a:hover {
+a:hover {
     color: #0056b3;
-    font-size: 20px;
-    text-transform: uppercase;
 }
 
 .banner-text {
@@ -76,6 +100,8 @@ p {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+	
+    z-index: 1;
 }
 .box-area li {
 	position: absolute;

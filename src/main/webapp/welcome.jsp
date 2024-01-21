@@ -6,9 +6,18 @@
 <head>
 <meta charset="UTF-8">
 <title>LoginSigninPage</title>
-<link rel="stylesheet" type="text/css" href="indexStyle.css">
+<link rel="stylesheet" type="text/css" href="animation.css">
 </head>
 <body>
+    <div class="animation-area">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
 <%
 		// Retrieve the session object
 		HttpSession session1 = request.getSession(false);
@@ -35,5 +44,6 @@
         }
        %>
 
+</div>
 </body>
 </html>

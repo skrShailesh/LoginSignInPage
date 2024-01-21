@@ -5,9 +5,20 @@
 <head>
 <meta charset="UTF-8">
 <title>login</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="animation2.css">
 </head>
 <body>
+<body>
+    <div class="animation-area">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
     <div class="container">
         <h1>Login</h1>
         <form action="LoginServlet" method="post"> <!-- Change method to "post" -->
@@ -30,6 +41,7 @@
             if (rs != null && rs.equals("success")) { %>
                 <p style="color: green;">Your Registration is Successful. Please Login.</p>
         <% } %>
+</div>
 </div>
 </body>
 </html>
