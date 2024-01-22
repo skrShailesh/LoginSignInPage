@@ -1,4 +1,15 @@
 # LoginSignInPage
+
+## First Page:
+![loginsignin](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/c08663c6-1554-4367-98f4-e31d4183b872)
+
+
+## Login Page:
+![LogIn](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/2af12927-363d-4cc7-b32a-c3523aadc519)
+
+## Register
+![Register](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/7e39df7d-ed07-4d98-8e90-e8f3dc13d22c)
+
  
 ## Frontend Development:
 <li>Designed and implemented an engaging and user-friendly frontend for the Login and Registration pages using    HTML and CSS.
