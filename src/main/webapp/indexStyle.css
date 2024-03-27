@@ -30,10 +30,13 @@ body {
 
 .container {
     width: 600px;
-    padding: 20px;
+    padding: 20px 40px;
+    background:transparent;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
-    background-color: rgb(243, 243, 243);
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #FFF;
     text-align: center;
     position: relative;
     z-index: 2;
@@ -41,7 +44,7 @@ body {
 
 h1 {
     font-weight: bold;
-    color: #007BFF;
+    color: #FFF;
 }
 
 p {
@@ -52,13 +55,13 @@ p {
 .links a {
     margin: 0 10px;
     text-decoration: none;
-    color: #007BFF;
+    color: #FFF;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .links a:hover {
-    color: #0056b3;
+    color: #FFF;
     font-size: 20px;
     text-transform: uppercase;
 }
