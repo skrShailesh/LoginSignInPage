@@ -58,9 +58,11 @@ h1 {
 }
 
 label {
+	font-weight: bold;
+    text-align: center;
     display: block;
     margin: 10px 0;
-    color: #555;
+    color: #333;
 }
 
 input {
@@ -76,29 +78,34 @@ input {
 button {
     width: 100%;
     padding: 12px;
+	margin-bottom: 15px;
     cursor: pointer;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #FFF;
+    color: #333;
     border: none;
     border-radius: 5px;
     font-size: 16px;
+	font-weight: bolder;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #FFF;
     transform: scale(1.05);
+	font-weight: bolder;
 }
 
 a {
     text-decoration: none;
-    color: #007BFF;
+    color: #ffffff;
     font-weight: bold;
+	
 }
 
 a:hover {
-    color: #0056b3;
+    color: #333;
 }
+
 
 .banner-text {
 	width: 100%;
