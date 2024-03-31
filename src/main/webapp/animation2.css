@@ -28,16 +28,6 @@ body {
 }
 
 .container {
-/* 	position: relative; Change to relative positioning
-    z-index: 2; Ensureing a higher z-index than .box-area
-    width: 400px;
-    padding: 20px;
-    border-radius: 10px;
-	background:transparent;
-	border: 2px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
-    background-color: white;
-    text-align: center; */
     width: 400px;
     padding: 20px 40px;
     background:transparent;
@@ -62,7 +52,7 @@ label {
     text-align: center;
     display: block;
     margin: 10px 0;
-    color: #333;
+    color: #FFF;
 }
 
 input {
