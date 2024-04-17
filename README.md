@@ -1,7 +1,8 @@
 # LoginSignInPage
 
-## First Page:
-![loginsignin](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/c08663c6-1554-4367-98f4-e31d4183b872)
+## Landing Page:
+![landing_page](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/0113114e-2486-4e55-b783-167ae96aa0b7)
+
 
 
 ## Login Page:
