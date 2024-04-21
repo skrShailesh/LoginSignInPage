@@ -35,7 +35,7 @@ body {
 	border: 2px solid rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    color: white;
+    /* color: #FFF; */
     text-align: center;
     position: relative;
     z-index: 2;
@@ -44,7 +44,7 @@ body {
 h1 {
     font-weight: bold;
     text-align: center;
-    color: #FFF;
+    color: #fff;
 }
 
 label {
@@ -52,7 +52,7 @@ label {
     text-align: center;
     display: block;
     margin: 10px 0;
-    color: #FFF;
+    color: #fff;
 }
 
 input {
