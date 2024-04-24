@@ -6,10 +6,15 @@
 
 
 ## Login Page:
-![LogIn](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/2af12927-363d-4cc7-b32a-c3523aadc519)
+![Screenshot 2024-04-19 161644](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/e5ec5f28-5e33-4b2b-aa1a-8aaa1f48242f)
+
 
 ## Register
-![Register](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/7e39df7d-ed07-4d98-8e90-e8f3dc13d22c)
+![Screenshot 2024-04-19 161416](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/abb9c9eb-8ed1-4a73-9296-02b4931317f6)
+
+## Welcome Page
+![welcome page](https://github.com/skrShailesh/LoginSignInPage/assets/114929285/c87f24d8-4ac6-4cab-b64a-284f5da9d4a9)
+
 
  
 ## Frontend Development:
